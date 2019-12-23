@@ -1,6 +1,24 @@
 @media screen and (max-width: 1024px) {
-  .nav-links{
-    width: 80%;
+  html {
+    overflow-x: hidden;
+   }
+   body {
+    overflow-x: hidden;
+   }
+   nav img{
+    height: 100px;  
+   }
+   .nav-links{
+     display: none;
+   }
+  .hamburger{
+    display: block;
+  }
+  #front{
+    margin-top: 40%;
+  }
+  .scroll{
+    width: 40%;
   }
 }
 
