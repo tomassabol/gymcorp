@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  background-color: #FFF;
+}
+section{
+  height: 100vh;
+}
+
+#home{
+  background-image: url(../img/front-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 nav{
@@ -17,6 +26,7 @@ nav{
 nav img{
   height: 100px;
   margin-top: 10%;
+  padding: 5%;
 }
 
 .nav-links{
@@ -33,7 +43,7 @@ nav img{
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-  color: #2a2a2a;
+  color: #fff;
   font-size: 15px;
 }
 
@@ -42,13 +52,17 @@ button{
   background-color: rgba(47, 186, 209, 1);
   border: none;
   border-radius: 50px;
-  cursor: pointer;
   transition: all 0.3s ease 0s;
   width: 180%;
   height: 150%;
   margin-top: -10px;
   font-weight: bold;
   color: #fff;
+}
+
+.shop:hover{
+  background-color: transparent;
+  border: 2px solid #2fbad1
 }
 
 .hamburger{
@@ -59,41 +73,38 @@ button{
 .hamburger div{
   width: 25px;
   height: 3px;
-  background-color: #2a2a2a;
+  background-color: #fff;
   margin: 5px;
 }
 
 #front{
-  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
-  color: #2a2a2a;
+  color: #fff;
   font-weight: bolder;
-  position: absolute;
-  margin-top: 10%;
+  margin-top: 16%;
+  text-align: center;
+  width: 100%;
 }
 
-#frontpage img{
-  width: 30%;
-  overflow: hidden;
-  position: absolute;
-  right: 10%;
-}
 
 .scroll {
   background-color: rgba(47, 186, 209, 1);
-  padding: 2%;
-  font-size: 16px;
-  cursor: pointer;
-  width: 20%;
+  padding: 1%;
+  font-size: 20px;
+  width: 17%;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   color: #fff;
-  margin-top: 5%;
+  margin: 2%;
+}
+.scroll:hover{
+  background-color: transparent;
+  border: 3px solid #2fbad1
 }
 
 /*///animation...*/
@@ -110,4 +121,64 @@ button{
   width: 100%;
   //transition: width .3s;
 }
-/*///*/
+
+/* events*/
+#event{
+  height: 100vh;
+  background-color: #2a2a2a;
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.next_event{
+  text-align: center;
+  margin-top: 5%;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.name{
+  text-align: center;
+  margin-top: 10%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 90px;
+  color: #d7f3f7;
+}
+
+.ples{
+  color: #d7f3f7;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#demo{
+  position: absolute;
+  left: 0;
+  top: 70%;
+  width: 100%;
+  text-align: center;
+  font-size: 65px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.event_shop{
+  background-color: #2fbad1;
+  width: 11%;
+  height: 6%;
+  position: absolute;
+  top: 90%;
+  margin-left: -6% ;
+}
+
+.event_shop:hover{
+  background-color: transparent;
+  border: 3px solid #2fbad1
+}
+
+
