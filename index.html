@@ -6,6 +6,8 @@
   <title>Gymcorp</title>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/media.css">
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/burger.js"></script>
 </head>
 
 <body>
@@ -24,11 +26,11 @@
            <li><a class="link" href="#Home">Kontakt</a></li>
            <li><a href="#Home"><button class="shop">Shop</button></a></li>
          </ul>
-             <div class="hamburger">
-               <div class="line1"></div>
-               <div class="line2"></div>
-               <div class="line3"></div>
-             </div>
+         <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
         </nav>
        </header>
   <div id="front">
@@ -43,12 +45,16 @@
 
 <!--events-->
 <section id="event">
-    <p class="next_event">Najbližšia akcia</p>
-    <p class="name">Noc v Benátkach</p>
-    <p class="ples">Ples GK2</p>
-    <p id="demo"></p>
-    <a class="event_shops"" href="#"><button class="event_shop">Shop</button></a>
-
+  <div class="left">
+      <img src="img/poster.png">
+      <p id="demo"></p>
+  </div>
+  <div class="right">
+      <p class="next_event">Najbližšia akcia</p>
+      <p class="name">Noc v Benátkach</p>
+      <p class="ples">Ples GK2</p>
+      <a class="event_shop"" href="#"><button class="event_shop">Shop</button></a>
+  </div>
     <script src="js/script.js"></script>
 
 </section> 
