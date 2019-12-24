@@ -21,46 +21,50 @@
     display: block;
   }
   #front{
-    margin-top: 40%;
+    margin-top: 60%;
+    font-size: 55px;
   }
   .scroll{
     width: 40%;
+    padding: 1.5%;
   }
   /*event*/
   .left img{
     width: 100vw;
-    height: 80vh;
+    height: 50vh;
    }
   .left{
     text-align: center;
   }
   #demo{
     width: 100%;
-    font-size: 50px;
-    margin-top: 40%;
+    font-size: 80px;
+    margin-top: 50%;
     text-align: center;
   }
   .right{
     width: 100%;
-    height: 100vh;  
+    height: 67vh;  
   }
   .next_event{
     position: relative;
-    top: 25%;
+    top: 30%;
     font-size: 25px;
   }
   .name{
-    top: 30%;
-    font-size: 80px;
+    top: 35%;
+    font-size: 135px;
     position: relative;
   }
   .ples{
     position: relative;
-    color: transparent;
+    color: #fff;
+    margin-top: 42%;
   }
-  .event_shop{
+  .event_shop button{
     position: relative;
-    margin-top: 60%;
+    height: 5%;
+    margin-left: 38%
   }
 }
 
