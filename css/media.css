@@ -5,6 +5,12 @@
    body {
     overflow-x: hidden;
    }
+   #home{
+  background-image: url(../img/front-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  }
    nav img{
     height: 100px;  
    }
@@ -19,6 +25,42 @@
   }
   .scroll{
     width: 40%;
+  }
+  /*event*/
+  .left img{
+    width: 100vw;
+    height: 80vh;
+   }
+  .left{
+    text-align: center;
+  }
+  #demo{
+    width: 100%;
+    font-size: 50px;
+    margin-top: 40%;
+    text-align: center;
+  }
+  .right{
+    width: 100%;
+    height: 100vh;  
+  }
+  .next_event{
+    position: relative;
+    top: 25%;
+    font-size: 25px;
+  }
+  .name{
+    top: 30%;
+    font-size: 80px;
+    position: relative;
+  }
+  .ples{
+    position: relative;
+    color: transparent;
+  }
+  .event_shop{
+    position: relative;
+    margin-top: 60%;
   }
 }
 
@@ -29,6 +71,12 @@
    body {
     overflow-x: hidden;
    }
+   #home{
+    background-image: url(../img/front-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    }
    nav img{
     height: 100px;  
    }
@@ -43,9 +91,24 @@
   }
   .scroll{
     width: 40%;
+    padding: 1%;
+  }
+  .left img{
+    height: 55vh;
+  }
+  #demo{
+    font-size: 40px;
+    color: #fff;
+  }
+  .name{
+    font-size: 90px;
+  }
+  .ples{
+    margin-top: 30%;
   }
 }
 
 .nav-active{
   transform: translateX(0%);
 }
+
